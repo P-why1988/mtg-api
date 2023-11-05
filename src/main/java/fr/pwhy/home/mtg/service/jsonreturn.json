@@ -1,0 +1,136 @@
+{
+  "cards": [
+    {
+      "name": "Lord Windgrace",
+      "manaCost": "{2}{B}{R}{G}",
+      "cmc": 5.0,
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "colorIdentity": [
+        "B",
+        "G",
+        "R"
+      ],
+      "type": "Legendary Planeswalker — Windgrace",
+      "supertypes": [
+        "Legendary"
+      ],
+      "types": [
+        "Planeswalker"
+      ],
+      "subtypes": [
+        "Windgrace"
+      ],
+      "rarity": "Mythic",
+      "set": "C18",
+      "setName": "Commander 2018",
+      "text": "[+2]: Discard a card, then draw a card. If a land card is discarded this way, draw an additional card.\n[−3]: Return up to two target land cards from your graveyard to the battlefield.\n[−11]: Destroy up to six target nonland permanents, then create six 2/2 green Cat Warrior creature tokens with forestwalk.\nLord Windgrace can be your commander.",
+      "artist": "Bram Sels",
+      "number": "43",
+      "layout": "normal",
+      "multiverseid": "450644",
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=450644&type=card",
+      "loyalty": "5",
+      "rulings": [
+        {
+          "date": "2018-07-13",
+          "text": "If you have no cards in hand as Lord Windgrace’s first ability resolves, you’ll discard nothing then you’ll draw one card."
+        },
+        {
+          "date": "2018-07-13",
+          "text": "While resolving Lord Windgrace’s last ability, you create six Cat Warrior tokens even if fewer than six nonland permanents are destroyed. However, if you choose any targets for the ability and each of them becomes an illegal target, the ability doesn’t resolve and you don’t create any tokens."
+        }
+      ],
+      "foreignNames": [
+        {
+          "name": "Lord Windgrace",
+          "text": "+2: Wirf eine Karte ab und ziehe dann eine Karte. Falls auf diese Weise eine Länderkarte abgeworfen wurde, ziehe eine zusätzliche Karte.\n−3: Bringe bis zu zwei Länderkarten deiner Wahl aus deinem Friedhof ins Spiel zurück.\n−11: Zerstöre bis zu sechs bleibende Karten deiner Wahl, die keine Länder sind, und erzeuge dann sechs 2/2 grüne Katze-Krieger-Kreaturenspielsteine mit Waldtarnung.\nLord Windgrace kann dein Kommandeur sein.",
+          "type": "Legendärer Planeswalker — Windgrace",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=450703&type=card",
+          "language": "German",
+          "multiverseid": 450703
+        },
+        {
+          "name": "Lord Windgrace",
+          "text": "+2: Descarta una carta, luego roba una carta. Si se descarta una carta de tierra de esta manera, roba una carta adicional.\n−3: Regresa hasta dos cartas de tierra objetivo de tu cementerio al campo de batalla.\n−11: Destruye hasta seis permanentes objetivo que no sean tierra. Luego, crea seis fichas de criatura Guerrero Felino verdes 2/2 con la habilidad de cruzar bosques.\nLord Windgrace puede ser tu comandante.",
+          "type": "Planeswalker legendario — Windgrace",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=450762&type=card",
+          "language": "Spanish",
+          "multiverseid": 450762
+        },
+        {
+          "name": "Seigneur Vent des vertus",
+          "text": "+2 : Défaussez-vous d'une carte, puis piochez une carte. Si une carte de terrain est défaussée de cette manière, piochez une carte supplémentaire.\n-3 : Renvoyez sur le champ de bataille jusqu'à deux cartes de terrain ciblées depuis votre cimetière.\n-11 : Détruisez jusqu'à six permanents non-terrain ciblés, puis créez six jetons de créature 2/2 verte Chat et Guerrier avec la traversée des forêts.\nSeigneur Vent des vertus peut être votre commandant.",
+          "type": "Planeswalker légendaire : Vent des vertus",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=450821&type=card",
+          "language": "French",
+          "multiverseid": 450821
+        },
+        {
+          "name": "Lord Windgrace",
+          "text": "+2: Scarta una carta, poi pesca una carta. Se una carta terra viene scartata in questo modo, pesca una carta addizionale.\n-3: Rimetti sul campo di battaglia fino a due carte terra bersaglio dal tuo cimitero.\n-11: Distruggi fino a sei permanenti non terra bersaglio, poi crea sei pedine creatura Guerriero Felino 2/2 verdi con passa-Foreste.\nLord Windgrace può essere il tuo comandante.",
+          "type": "Planeswalker Leggendario — Windgrace",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=450880&type=card",
+          "language": "Italian",
+          "multiverseid": 450880
+        },
+        {
+          "name": "ウィンドグレイス卿",
+          "text": "+2：カード１枚を捨て、その後カードを１枚引く。これにより土地・カードが捨てられたなら、カードを追加で１枚引く。\n-3：あなたの墓地から土地・カード最大２枚を対象とし、それらを戦場に戻す。\n-11：土地でないパーマネント最大６つを対象とし、それらを破壊する。その後、森渡りを持つ緑の２/２の猫・戦士・クリーチャー・トークンを６体生成する。\nウィンドグレイス卿は統率者として使用できる。",
+          "type": "伝説のプレインズウォーカー — ウィンドグレイス",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=450939&type=card",
+          "language": "Japanese",
+          "multiverseid": 450939
+        },
+        {
+          "name": "Lorde Windgrace",
+          "text": "+2: Descarte um card e depois compre um card. Se um card de terreno for descartado dessa forma, compre um card adicional.\n−3: Devolva até dois cards de terreno alvo de seu cemitério para o campo de batalha.\n−11: Destrua até seis permanentes alvo que não sejam terrenos. Em seguida, crie seis fichas de criatura verde 2/2 do tipo Felino Guerreiro com travessia de floresta.\nLorde Windgrace pode ser seu comandante.",
+          "type": "Planeswalker Lendário — Windgrace",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=450998&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": 450998
+        }
+      ],
+      "printings": [
+        "C18",
+        "OC18",
+        "PZ2",
+        "SLD"
+      ],
+      "originalText": "+2: Discard a card, then draw a card. If a land card is discarded this way, draw an additional card.\n−3: Return up to two target land cards from your graveyard to the battlefield.\n−11: Destroy up to six target nonland permanents, then create six 2/2 green Cat Warrior creature tokens with forestwalk.\nLord Windgrace can be your commander.",
+      "originalType": "Legendary Planeswalker — Windgrace",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Oathbreaker",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "0e4da650-f65c-5540-9a6c-2510a5eef397"
+    }
+  ]
+}
