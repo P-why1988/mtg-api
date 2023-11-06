@@ -16,7 +16,8 @@ public class CardSearchRestController {
     private CardSearchService cardSearchService;
 
     /// METHODS ///
-    @GetMapping("/cards/{cardName}")
+//    @GetMapping("/cards/{cardName}")
+    @RequestMapping(value = "/cards/{cardName}", method = RequestMethod.GET)
     public List<CardDto> fetchCardWithNameOnMtgApi(@PathVariable String cardName) {
         return cardSearchService.fetchCardsOnMtgApi(cardName);
     }

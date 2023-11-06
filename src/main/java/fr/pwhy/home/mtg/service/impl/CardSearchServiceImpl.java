@@ -8,6 +8,7 @@ import org.apache.logging.log4j.Logger;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Service
@@ -30,16 +31,16 @@ public class CardSearchServiceImpl implements CardSearchService {
         log.info("Starting search with keyword(s): {} on\n{}", cardName, url);
         JsonListOfCardsDto jsonListOfCardsDto = restTemplate.getForObject(
                 url, JsonListOfCardsDto.class);
-        List<CardDto> cards = jsonListOfCardsDto.getCards();
+        List<CardDto> cards = new ArrayList<>();
+        if (jsonListOfCardsDto.getCards() != null) { cards = jsonListOfCardsDto.getCards(); };
 
         int cardNumber = 0;
         for (CardDto card : cards) {
-//            card.generateLegalityMap();
-            log.info("Card #{}: {} || Legality in Commander: {}",
+            log.info("Card #{}: {} ===> Set<Legality> contains: {}",
                     cardNumber,
                     card.getName(),
-//                    card.getLegalities() == null ? "null" : card.getLegalities().toString());
-                    card.getLegalityMap().get("Commander"));
+                    card.getLegalities());
+            log.info("Legality in Commander: {}", card.getLegalityMap().get("Commander"));
             cardNumber++;
         }
         return cards;

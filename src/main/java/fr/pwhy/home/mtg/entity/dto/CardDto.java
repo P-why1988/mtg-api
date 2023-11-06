@@ -31,6 +31,7 @@ public class CardDto {
     /// CONSTRUCTORS ///
 
     public CardDto() {
+        generateLegalityMap();
     }
 
     /// METHODS ///
